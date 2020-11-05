@@ -29,5 +29,5 @@ function Insertion(){
         }
     }
     div_update(divs[j-1],div_sizes[j-1],"0f4c5c");//Color update
-    enable_bttons();
+    enable_buttons();
 }
