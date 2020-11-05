@@ -30,7 +30,7 @@ function div_update(cont,heigth,color){
     },c_delay+=delay_time);
 }
 
-function enable_bottons(){
+function enable_buttons(){
     window.setTimeout(function(){
         for(var i=0;i<butts_algos.length;i++){
             butts_algos[i].classList=[];
