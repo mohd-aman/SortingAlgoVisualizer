@@ -26,7 +26,7 @@ var c_delay = 0;//updated on every div change so that visualization is visible.
 
 function div_update(cont,heigth,color){
     window.setTimeout(function(){
-        cont.style="margin:0%"+margin_size+"%;width:"+(100/array_size-(2*margin_size))+"%; hegight:"+heigth+"%;background-color;"+color+";";
+        cont.style="margin:0%"+margin_size+"%;width:"+(100/array_size-(2*margin_size))+"%;height:"+(heigth)+"%;background-color:"+color+";";
     },c_delay+=delay_time);
 }
 
@@ -35,7 +35,7 @@ function enable_bottons(){
         for(var i=0;i<butts_algos.length;i++){
             butts_algos[i].classList=[];
             butts_algos[i].classList.add("butt_unselected");
-            inp_algos[i].disbled = false;
+            butts_algos[i].disabled=false;
             inp_gen.disabled=false;
             inp_as.disabled=false;
             inp_aspeed.disabled=false;
