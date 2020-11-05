@@ -199,7 +199,7 @@ input[type=range]:focus::-ms-fill-upper {
   
   nav .header_right .algos .butt_selected {
     background-color: white;
-    color: green;
+    color: #2ec4b6;
   }
   
   nav .header_right .algos .butt_selected:hover {
@@ -208,7 +208,7 @@ input[type=range]:focus::-ms-fill-upper {
   }
   
   nav .header_right .algos .butt_unselected:hover {
-    background-color: blue;
+    background-color: white;
     cursor: pointer;
   }
   
